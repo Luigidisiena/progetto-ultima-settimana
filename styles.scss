@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: rgb(46, 46, 46);
+}
+
+mat-drawer {
+  ul {
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    li {
+      margin-top: 1%;
+      margin-bottom: 5vh;
+    }
+  }
+  font-size: 1.5rem;
+  width: 10vw;
+
+}
+
+.mat-drawer-inner-container {
+  color: rgb(255, 255, 255);
+  background-color: rgb(46, 46, 46);
+}
+.mat-drawer-content {
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 68, 68);
+}
+a {
+  cursor: pointer;
+}
+#loginQuad {
+  color: white;
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+  margin: auto;
+  padding-top: 8%;
+  h2 {
+    color: red;
+    font-size: 2rem;
+  }
+  box-shadow: rgb(105, 20, 20) 1px 1px 20px 5px;
+}
+.sfondo {
+  background-image: url("./assets/img/752715.jpg");
+  height: 100vh;
+  padding-top: 5%;
+}
+
+#utentePagina {
+  margin-top: 10%;
+  height: 100vh;
+}
+mat-toolbar {
+  position: fixed;
+  z-index: 1000;
+}
+#menu {
+  color: #f44336;
+}
